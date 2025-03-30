@@ -1,0 +1,1 @@
+CONFIG=config-dev.yaml go run cmd/rest/main.go
