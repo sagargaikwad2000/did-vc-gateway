@@ -20,7 +20,7 @@ func MustReadConfig() *configuration.Configuration {
 	var config configuration.Configuration
 
 	config.Application.Server.Host = viper.GetString("application.server.host")
-	config.Application.Server.Port = viper.GetInt("application.server.port")
+	config.Application.Server.Port = viper.GetString("application.server.port")
 
 	return &config
 }

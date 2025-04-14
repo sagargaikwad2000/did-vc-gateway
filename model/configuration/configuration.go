@@ -10,5 +10,5 @@ type Application struct {
 
 type Server struct {
 	Host string `json:"host"`
-	Port int    `json:"port"`
+	Port string `json:"port"`
 }
